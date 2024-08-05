@@ -3,8 +3,6 @@ body {
     flex-direction: column;
     flex: 1;
     justify-content: center;
-    padding-left: 64px;
-    padding-right: 64px;
 }
 
 .header {
