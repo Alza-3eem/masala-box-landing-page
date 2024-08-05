@@ -3,6 +3,8 @@ body {
     flex-direction: column;
     flex: 1;
     justify-content: center;
+    padding-left: 64px;
+    padding-right: 64px;
 }
 
 .header {
@@ -69,7 +71,7 @@ body {
 .b2icons {
     display: flex;
     justify-content: center;
-    gap: 16px;
+    gap: 4px;
 }
 
 .icon {
@@ -104,3 +106,38 @@ body {
     font-weight: bold;
     font-size: 16px;
 }
+
+.body4 {
+    margin-left: 64px;
+    margin-right: 64px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    background-color: royalblue;
+    border-radius: 15px;
+    padding: 8px 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 128px;
+}
+
+.b3left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4px;
+}
+
+.b3text {
+    font-size: 16px;
+    color: white;
+}
+
+.secondbutton {
+    border-color: white;
+    color: white;
+    background-color: royalblue;
+    padding: 8px 16px;
+    border-radius: 15px;
+}
+
